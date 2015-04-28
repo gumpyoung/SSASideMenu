@@ -98,9 +98,9 @@ class SSASideMenu: UIViewController, UIGestureRecognizerDelegate {
         var scaleBackground: Bool = true
         var parallaxEnabled: Bool = true
         var bouncesHorizontally: Bool = true
-        var statusBarStyle: SSAStatusBarStyle = .Black
+        var statusBarStyle: SSAStatusBarStyle = .Light
         
-        init(fade: Bool = true, scale: Bool = true, scaleBackground: Bool = true, parallaxEnabled: Bool = true, bouncesHorizontally: Bool = true, statusBarStyle: SSAStatusBarStyle = .Black) {
+        init(fade: Bool = true, scale: Bool = true, scaleBackground: Bool = true, parallaxEnabled: Bool = true, bouncesHorizontally: Bool = true, statusBarStyle: SSAStatusBarStyle = .Light) {
             
             self.fade = fade
             self.scale = scale
@@ -205,7 +205,7 @@ class SSASideMenu: UIViewController, UIGestureRecognizerDelegate {
     @IBInspectable var bouncesHorizontally: Bool = true
     
     // MARK : Public Properties: MenuView
-    @IBInspectable var statusBarStyle: SSAStatusBarStyle = .Black
+    @IBInspectable var statusBarStyle: SSAStatusBarStyle = .Light
     
     // MARK : Private Properties: ContentView
     @IBInspectable var contentViewScaleValue: Float = 0.7
